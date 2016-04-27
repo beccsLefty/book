@@ -13,7 +13,7 @@ Ext.define('eBook.view.Main', {
         },
         items: [
             {
-                xtype: 'testpage'		// 0
+                xtype: 'test'		// 0
             },
             {
                 xtype: 'titlepage'		// 1

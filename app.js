@@ -19,8 +19,11 @@ Ext.application({
 
     views: [
         'Main',
-        'Title',
-        'Test'
+        'Canvas',
+        'Title'
+    ],
+    controllers: [
+        'MainController'
     ],
 
     icon: {
