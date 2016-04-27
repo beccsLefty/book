@@ -22,14 +22,14 @@ Ext.define('eBook.controller.MainController', {
     },
 
     draw: function(){
-        function clock(){
-            var now = new Date();
             console.log('canvas');
-            var canvas = Ext.get('canvasElement').dom;
-            var ctx = canvas.getContext("2d");
-          
-        }
+        var scope=this;
+            var canvas = scope.getCanvasP().el.down('canvas').dom;
+        console.log(canvas);
+        var canvas2 = canvas.innerHTML;
+            var ctx = canvas2.getContext("2d");
 
+            console.log(canvas2);
 
 },
 
