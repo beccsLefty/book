@@ -22,7 +22,7 @@ Ext.define('eBook.view.Canvas', {
                 title: 'Welcome to Sencha Touch 2'
             },
             html: [
-                "<p>before<p><canvas width='500' id='canvasElement' height='400'><canvas width='500' id='canvasInner' height='400'>test</canvas>test</canvas><p>after<p>"
+                "<p>before<p><canvas width='500' id='canvasElement' height='400'></canvas><p>after<p>"
             ]
         }]
     }
